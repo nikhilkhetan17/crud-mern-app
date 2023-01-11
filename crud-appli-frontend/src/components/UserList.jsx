@@ -19,7 +19,7 @@ const UserList = () => {
 
   useEffect(() => {
     fetchUserData();
-  }, [userData]);
+  }, []);
 
   // Edit User
   const handleEdit = async (user) => {
